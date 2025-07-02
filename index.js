@@ -5,7 +5,7 @@ const { UserModel, TodoModel } = require('./db'); // Assuming db.js is in the sa
 // Ensure you have a db.js file with the UserModel and TodoModel defined as shown in the comment above
 const mongoose = require('mongoose');
 const JWT_SECRET = "your_jwt_secret_key"; // Replace with your actual secret key
-mongoose.connect("mongodb+srv://shubham1230101130:tBc3kiQrDkXdq7nk@cluster0.tbrbsay.mongodb.net/todo-app-database");
+mongoose.connect("your_mogo_url/db_name");
 const app = express();
 app.use(express.json());
 
